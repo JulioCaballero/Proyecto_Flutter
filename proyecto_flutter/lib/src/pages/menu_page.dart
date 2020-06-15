@@ -177,4 +177,4 @@ class Menu_Page extends StatelessWidget {
   }
 }
 
-final appBar = new AppBar(title: Text('Hello Flutter!'));
+final appBar = new AppBar(title: Text('Menu'));
