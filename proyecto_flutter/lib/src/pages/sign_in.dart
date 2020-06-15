@@ -106,6 +106,7 @@ final card = new Card(
 
 final button = new ButtonTheme(
   minWidth: 400.0,
+  height: 50,
   shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(18.0),
       side: BorderSide(color: Color(0xFF205263))),
