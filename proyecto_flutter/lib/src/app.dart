@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_flutter/src/pages/flutter_page.dart';
 import 'package:proyecto_flutter/src/pages/react_page.dart';
 
 //Importaciones de paginas
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: React_Page(),
+      home: Flutter_Page(),
     );
   }
 }
