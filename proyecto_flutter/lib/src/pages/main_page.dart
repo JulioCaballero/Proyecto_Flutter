@@ -1,8 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:http/http.dart' as http;
 import 'package:proyecto_flutter/src/pages/login__page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -32,7 +28,8 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Code Land", style: TextStyle(color: Colors.white)),
+        title: Text("Main", style: TextStyle(color: Colors.white)),
+        backgroundColor: Color(0xFF088d7a),
         actions: <Widget>[
           FlatButton(
             onPressed: () {
@@ -44,7 +41,7 @@ class _MainPageState extends State<MainPage> {
           ),
         ],
       ),
-      body: Center(child: Text("Main Page")),
+      body: Center(child: Text("Welcome")),
       drawer: Drawer(),
     );
   }
